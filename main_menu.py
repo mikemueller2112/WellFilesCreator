@@ -11,19 +11,19 @@ if button == options[0]:
   # Start corresponding program depending on user selection
   if templateChoice == wellType[0]:
     # Start Bakken template
-    os.startfile("wfcBakken.exe")
+    os.startfile("wfcBakken.py")
   elif templateChoice == wellType[1]:
     # Start Upper Shaunavon template
-    os.startfile("wfcUShaun.exe")
+    os.startfile("wfcUShaun.py")
   elif templateChoice == wellType[2]:
     # Start Lower Shaunavon template
-    os.startfile('wfcLShaun.exe')
+    os.startfile('wfcLShaun.py')
   else:
     os.sys.exit(0)
   #os.startfile("wellfilescreator.exe") #Change to .exe for final build
 elif button == options[1]:
-  os.startfile("create_profile.exe") #Change to .exe for final build
+  os.startfile("create_profile.py") #Change to .exe for final build
 elif button == options[2]:
-  os.startfile("choose_directory.exe") #Change to .exe for final build
+  os.startfile("choose_directory.py") #Change to .exe for final build
 else:
   os.sys.exit(0)
